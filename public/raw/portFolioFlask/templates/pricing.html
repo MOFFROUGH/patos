@@ -1,0 +1,139 @@
+{%extends "layout.html"%}
+{%block title%}
+Moffat Munene | Pricing
+{%endblock%}
+{%block content%}
+
+  <section class="head-main-img">
+
+    <div class="container">
+      <div class="row text-center pad-row" >
+        <div class="col-md-12">
+          <h1>  PRICING OPTIONS </h1>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--/.HEADING END-->
+
+
+  <section id="pricing-one">
+    <div class="container">
+      <div class="row text-center pad-row" >
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h4>Static Website</h4>
+            </div>
+            <div class="panel-body">
+
+              <ul class="plan">
+                <li class="price"><strong>150</strong> <i class="fa fa-dollar"></i></li>
+                <li><strong>4</strong> pages</li>
+                <li><strong>1</strong> Landing page</li>
+                <li><strong>Free</strong> Support</li>
+              </ul>
+            </div>
+            <div class="panel-footer">
+              <a href="#" class="btn btn-danger ">Get One</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Simple Dynamic website</h4>
+            </div>
+            <div class="panel-body">
+
+              <ul class="plan">
+                <li class="price"><strong>250</strong> <i class="fa fa-dollar"></i></li>
+                <li><strong>6</strong> pages</li>
+                <li><strong>1</strong> admin panel</li>
+                <li><strong>Free</strong> Support</li>
+              </ul>
+            </div>
+            <div class="panel-footer">
+              <a href="#" class="btn btn-primary ">Get iy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h4>Content Management Site</h4>
+            </div>
+            <div class="panel-body">
+
+              <ul class="plan">
+                <li class="price"><strong>450</strong> <i class="fa fa-dollar"></i></li>
+                <li><strong>10</strong> Pages</li>
+                <li><strong>4</strong> User Categories</li>
+                <li><strong>Free</strong> Support</li>
+              </ul>
+            </div>
+            <div class="panel-footer">
+              <a href="#" class="btn btn-success ">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4>Corporate Ecommerce</h4>
+            </div>
+            <div class="panel-body">
+
+              <ul class="plan">
+                <li class="price"><strong>700</strong>+ <i class="fa fa-dollar"></i></li>
+                <li><strong>unlimited</strong> Pages</li>
+                <li><strong>unlimited</strong> User Categories</li>
+                <li><strong>Free</strong> Support</li>
+              </ul>
+            </div>
+            <div class="panel-footer">
+              <a href="#" class="btn btn-info ">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section  class="note-sec" >
+
+    <div class="container">
+      <div class="row text-center pad-row" >
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
+          <i class="fa fa-quote-left fa-3x"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--/.NOTE END-->
+  <section id="clients"  >
+
+
+    <div class="container">
+      <div class="row text-center pad-bottom" >
+        <div class="col-md-12">
+          <img src="{{url_for('static',filename='assets/img/clients.png')}}" alt="" class="img-responsive" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/.CLIENTS END-->
+
+  {%endblock%}
